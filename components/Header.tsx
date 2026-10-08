@@ -1,0 +1,55 @@
+"use client";
+
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { SisterBar } from "@/components/SisterSites";
+import { VisitorCounter } from "@/components/VisitorCounter";
+import { NAV, SITE_NAME, SITE_NAME_EN } from "@/lib/site";
+
+function active(pathname: string, href: string) {
+  return pathname === href || pathname.startsWith(`${href}/`);
+}
+
+export function Header() {
+  const pathname = usePathname();
+
+  return (
+    <header className="sticky top-0 z-50 border-b border-line bg-bg/95 backdrop-blur">
+      <div className="mx-auto flex max-w-6xl items-center gap-3 px-4 py-3">
+        <Link href="/" className="flex min-w-0 shrink-0 items-center gap-2" aria-label={`${SITE_NAME} 홈`}>
+          <span aria-hidden className="flex h-8 w-8 items-center justify-center rounded-full border border-aegean bg-stone text-aegean">
+            <svg viewBox="0 0 24 24" className="h-4 w-4" fill="none">
+              <path d="M6 16.5c.2-4.2 2.6-7 6-7s5.8 2.8 6 7" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" />
+              <path d="M5 16.5h14" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" />
+              <path d="M12 9.5c.3-1.6 1.3-2.5 2.4-2.4" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" />
+            </svg>
+          </span>
+          <span className="min-w-0">
+            <span className="block font-serif text-lg leading-tight tracking-wide text-ink">{SITE_NAME}</span>
+            <span className="mt-0.5 block text-[10px] leading-none tracking-[0.18em] text-aegean">{SITE_NAME_EN}</span>
+          </span>
+        </Link>
+        <div className="ml-auto flex items-center gap-3">
+          <VisitorCounter />
+        </div>
+      </div>
+      <nav aria-label="주요 메뉴" className="mx-auto flex max-w-6xl gap-1 overflow-x-auto px-3 pb-2">
+        {NAV.map((item) => {
+          const on = active(pathname, item.href);
+          return (
+            <Link
+              key={item.href}
+              href={item.href}
+              aria-current={on ? "page" : undefined}
+              className={`shrink-0 rounded-full px-3 py-2 text-sm ${on ? "bg-aegean/10 font-semibold text-aegean" : "text-muted hover:bg-stone hover:text-ink"}`}
+            >
+              {item.label}
+            </Link>
+          );
+        })}
+      </nav>
+      <SisterBar />
+      <div className="meander opacity-70" aria-hidden />
+    </header>
+  );
+}
