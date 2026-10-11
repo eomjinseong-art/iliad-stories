@@ -15,6 +15,10 @@ export const GREECE_NAME = "그리스이야기";
 
 export const ROME_URL = "https://rome-stories.vercel.app";
 export const ROME_NAME = "로마이야기";
+export const GERMANIC_URL = "https://germanic-stories.vercel.app";
+export const GERMANIC_NAME = "게르만이야기";
+export const VIKING_URL = "https://viking-stories.vercel.app";
+export const VIKING_NAME = "바이킹이야기";
 
 export const EGYPT_URL = "https://egypt-stories.vercel.app";
 export const EGYPT_NAME = "이집트이야기";
@@ -31,6 +35,8 @@ export const PHILOSOPHY_NAME = "철학이야기";
 export const KOREA_URL = "https://korea-stories.vercel.app";
 export const KOREA_NAME = "대한민국이야기";
 
+export const WORLD_URL = "https://nadoo-world.vercel.app";
+export const WORLD_NAME = "나두세계";
 export const TIMELINE_URL = "https://nadoo-timeline.vercel.app";
 export const TIMELINE_NAME = "나두연표";
 
@@ -109,6 +115,22 @@ export const SISTERS = [
     body: "일리아스 20권은 아이네이아스가 살아남는다고 말합니다. 이탈리아와 로마의 족보는 로마이야기의 전승 가계에 있습니다.",
   },
   {
+    href: GERMANIC_URL,
+    name: GERMANIC_NAME,
+    en: "GERMANIC",
+    button: GERMANIC_NAME,
+    note: "로마에 맞선 숲의 전사들, 토이토부르크에서 카롤루스 대제까지.",
+    body: "트로이와는 천 년 넘게 떨어진 이야기입니다. 로마의 북쪽 국경과 게르만 부족은 게르만이야기에서 읽습니다.",
+  },
+  {
+    href: VIKING_URL,
+    name: VIKING_NAME,
+    en: "VIKINGS",
+    button: VIKING_NAME,
+    note: "롱쉽을 타고 온 북쪽의 사람들과 북유럽 신화.",
+    body: "또 하나의 영웅 서사입니다. 북유럽의 사가와 신화, 바이킹 시대의 항해는 바이킹이야기에 있습니다.",
+  },
+  {
     href: EGYPT_URL,
     name: EGYPT_NAME,
     en: "EGYPT",
@@ -149,6 +171,14 @@ export const SISTERS = [
     body: "같은 나두의 한국사입니다. 서사시의 세기와 한반도의 같은 무렵은 나두연표에서 비교합니다.",
   },
   {
+    href: WORLD_URL,
+    name: WORLD_NAME,
+    en: "WORLD",
+    button: WORLD_NAME,
+    note: "나두의 세계 이야기를 한곳에서.",
+    body: "여러 나라와 시대의 이야기를 한곳에서 둘러봅니다.",
+  },
+  {
     href: TIMELINE_URL,
     name: TIMELINE_NAME,
     en: "TIMELINE",
@@ -168,6 +198,8 @@ export const SISTERS = [
 
 export const OTHER_TREES = [
   { href: `${ROME_URL}/family-tree`, name: ROME_NAME, note: "건국 전승의 가계" },
+  { href: `${GERMANIC_URL}/family-tree`, name: GERMANIC_NAME, note: "아르미니우스와 프랑크 왕가" },
+  { href: `${VIKING_URL}/family-tree`, name: VIKING_NAME, note: "라그나르 전승과 북유럽 왕가" },
   { href: `${GREECE_URL}/family-tree`, name: GREECE_NAME, note: "트로이 영웅 탭" },
   { href: `${EGYPT_URL}/family-tree`, name: EGYPT_NAME, note: "파라오의 가계" },
   { href: `${PERSIA_URL}/family-tree`, name: PERSIA_NAME, note: "왕의 가계" },
@@ -178,6 +210,8 @@ export const OTHER_TREES = [
 
 export const OTHER_FILMS = [
   { href: `${ROME_URL}/movies`, name: ROME_NAME, note: "영화" },
+  { href: `${GERMANIC_URL}/films`, name: GERMANIC_NAME, note: "영화" },
+  { href: `${VIKING_URL}/films`, name: VIKING_NAME, note: "영화" },
   { href: `${GREECE_URL}/movies`, name: GREECE_NAME, note: "영화" },
   { href: `${EGYPT_URL}/movies`, name: EGYPT_NAME, note: "영화" },
   { href: `${PERSIA_URL}/movies`, name: PERSIA_NAME, note: "영화" },
