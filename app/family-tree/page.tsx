@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { FamilyTreeView } from "@/components/FamilyTreeView";
+import { TreePanel } from "@/components/TreePanel";
 import { JsonLd } from "@/components/JsonLd";
 import { PageHead } from "@/components/PageHead";
 import { LinkRow } from "@/components/SisterSites";
@@ -82,6 +83,7 @@ export default function FamilyTreePage() {
         <h2 className="font-serif text-2xl text-ink">글로 읽는 가족관계</h2>
         <p className="mt-2 max-w-3xl text-sm leading-7 text-muted">그림과 같은 관계입니다. 이름을 누르면 그 칸으로 이동합니다.</p>
         {TREES.map((tree) => (
+          <TreePanel key={tree.id} id={tree.id} defaultId={"atreus"}>
           <section key={tree.id} className="mt-8" aria-labelledby={`read-${tree.id}`}>
             <h3 id={`read-${tree.id}`} className="font-serif text-xl text-ink">
               {tree.ko} <span className="text-sm font-sans tracking-wide text-aegean">{tree.en}</span>
@@ -128,6 +130,7 @@ export default function FamilyTreePage() {
               </section>
             ))}
           </section>
+          </TreePanel>
         ))}
       </section>
 
