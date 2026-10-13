@@ -5,6 +5,7 @@ import { books } from "@/data/books";
 import { heroes } from "@/data/heroes";
 import { jsonLd, pageMetadata, websiteLd } from "@/lib/seo";
 import { BRAND_LINE, HOME_SECTIONS, SISTER_LABEL, SISTERS, SITE_SUB, SITE_TAGLINE } from "@/lib/site";
+import { CoupangCard } from "@/components/CoupangCard";
 
 export const metadata = pageMetadata({
   title: "홈",
@@ -57,6 +58,7 @@ export default function Home() {
         </div>
       </section>
 
+      <CoupangCard />
       <div className="meander opacity-50" aria-hidden />
 
       <section className="mt-10 grid gap-4 sm:grid-cols-3" aria-label="핵심">
