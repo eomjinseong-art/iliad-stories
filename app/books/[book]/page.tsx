@@ -7,6 +7,7 @@ import { Rich } from "@/components/Rich";
 import { bookByNumber, books } from "@/data/books";
 import { heroBySlug } from "@/data/heroes";
 import { articleLd, breadcrumbLd, jsonLd, pageMetadata } from "@/lib/seo";
+import { CoupangCard } from "@/components/CoupangCard";
 
 export function generateStaticParams() {
   return books.map((book) => ({ book: String(book.n) }));
@@ -108,6 +109,7 @@ export default async function BookPage({ params }: { params: Promise<{ book: str
           <span />
         )}
       </nav>
+      <CoupangCard />
     </article>
   );
 }
