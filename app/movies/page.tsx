@@ -6,6 +6,7 @@ import { LinkRow } from "@/components/SisterSites";
 import { movies } from "@/data/movies";
 import { breadcrumbLd, itemListLd, jsonLd, pageMetadata } from "@/lib/seo";
 import { OTHER_FILMS } from "@/lib/site";
+import { NadooHubFilmsLink } from "@/components/NadooHubLink";
 
 const description =
   "트로이(2004), 헬레네 오브 트로이(1956·2003), 트로이: 폴 오브 어 시티(2018), 트로이의 여인들(1971), 크리스토퍼 놀란의 오디세이(2026). 일리아스에 없는 죽음을 영화가 넣었는지도 적습니다. 불법 영상 링크는 없습니다.";
@@ -48,6 +49,7 @@ export default function MoviesPage() {
         <p className="mt-2 text-sm leading-7 text-muted">로마, 그리스, 이집트, 페르시아의 영화와, 한국사·철학의 영화, 신화가 쓰인 작품, 더 초즌의 같이 보기는 각 사이트에 있습니다.</p>
         <LinkRow label="다른 사이트의 영화" items={OTHER_FILMS} />
       </section>
+      <NadooHubFilmsLink />
     </div>
   );
 }

@@ -12,6 +12,7 @@ import { Rich } from "@/components/Rich";
 import { SourceList } from "@/components/SourceList";
 import { heroes, heroBySlug } from "@/data/heroes";
 import { articleLd, breadcrumbLd, jsonLd, pageMetadata } from "@/lib/seo";
+import { NadooHubPersonLink } from "@/components/NadooHubLink";
 
 export function generateStaticParams() {
   return heroes.map((hero) => ({ slug: hero.slug }));
@@ -104,6 +105,7 @@ export default async function HeroPage({ params }: { params: Promise<{ slug: str
         prev={prev ? { href: `/heroes/${prev.slug}`, label: prev.nameKo } : undefined}
         next={next ? { href: `/heroes/${next.slug}`, label: next.nameKo } : undefined}
       />
+      <NadooHubPersonLink base="https://iliad-stories.vercel.app/heroes/" slug={hero.slug!} />
     </article>
   );
 }
