@@ -225,6 +225,7 @@ export const NAV = [
   { href: "/timeline", label: "51일" },
   { href: "/books", label: "24권" },
   { href: "/heroes", label: "인물" },
+  { href: "/generals", label: "장군" },
   { href: "/scope", label: "나오는 것" },
   { href: "/scenes", label: "명장면" },
   { href: "/why", label: "왜 51일" },
@@ -235,6 +236,12 @@ export const NAV = [
 ] as const;
 
 export const HOME_SECTIONS = [
+  {
+    href: "/generals",
+    en: "Generals",
+    title: "유명한 장군",
+    desc: "아킬레우스, 헥토르, 아가멤논, 오디세우스… 시 속 장수 9명(전설)과 영화 「트로이」를 잇습니다.",
+  },
   {
     href: "/timeline",
     en: "51 Days",
