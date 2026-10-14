@@ -1,3 +1,4 @@
+import { generals } from "@/data/generals";
 import type { MetadataRoute } from "next";
 import { books } from "@/data/books";
 import { heroes } from "@/data/heroes";
@@ -9,6 +10,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/timeline",
     "/books",
     "/heroes",
+    "/generals",
+    "/generals/quiz",
+    ...generals.map((g) => `/generals/${g.slug}`),
     "/scope",
     "/scenes",
     "/why",
