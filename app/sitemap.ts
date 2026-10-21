@@ -19,6 +19,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/family-tree",
     "/movies",
     "/movies/troy-fall-of-a-city",
+    "/movies/troy-missing",
     "/homer",
     "/sources",
     ...books.map((book) => `/books/${book.n}`),

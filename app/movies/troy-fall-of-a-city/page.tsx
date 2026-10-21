@@ -9,6 +9,7 @@ import {
   troyCast,
   troyDifferences,
   troyEpisodes,
+  troyReception,
   troySeeAlso,
   troySeries,
 } from "@/data/troy-fall";
@@ -62,6 +63,13 @@ export default function TroyFallPage() {
         title={troySeries.titleKo}
         lead="파리스와 헬레네에서 시작해 포위와 함락까지 가는 8부작입니다. 『일리아스』 한 편의 각색이 아닙니다. 시의 51일은 그 안의 한 구간입니다."
       />
+      <p className="mt-4 text-sm leading-7">
+        2004년 영화 「트로이」와 이 시리즈, 그리고 시가 같은 장면을 어떻게 다루는지는{" "}
+        <Link href="/movies/troy-missing" className="text-olive underline decoration-line underline-offset-4 hover:text-aegean">
+          영화 트로이에서 빠진 이야기
+        </Link>
+        에 나란히 두었습니다.
+      </p>
 
       <section className="mt-8 rounded-lg border border-line bg-card p-5 text-sm leading-7" aria-labelledby="facts-heading">
         <h2 id="facts-heading" className="font-serif text-xl text-ink">
@@ -141,6 +149,9 @@ export default function TroyFallPage() {
         <a href="#differences" className="rounded-full border border-line bg-card px-3 py-1.5 hover:border-aegean">
           시와의 차이
         </a>
+        <a href="#reception" className="rounded-full border border-line bg-card px-3 py-1.5 hover:border-aegean">
+          논란과 반응
+        </a>
       </nav>
 
       <section className="mt-10" aria-labelledby="episodes-heading">
@@ -199,6 +210,52 @@ export default function TroyFallPage() {
                 <p className="mt-2 flex flex-wrap gap-x-3 gap-y-1 text-sm">
                   {item.links.map((link) =>
                     link.href.startsWith("/") ? (
+                      <Link key={link.href + link.label} href={link.href} className="text-olive underline decoration-line underline-offset-4 hover:text-aegean">
+                        {link.label}
+                      </Link>
+                    ) : (
+                      <a
+                        key={link.href + link.label}
+                        href={link.href}
+                        className="text-olive underline decoration-line underline-offset-4 hover:text-aegean"
+                        rel="noopener noreferrer"
+                      >
+                        {link.label}
+                      </a>
+                    ),
+                  )}
+                </p>
+              ) : null}
+            </li>
+          ))}
+        </ul>
+      </section>
+
+      <section className="mt-12" aria-labelledby="reception">
+        <h2 id="reception" className="scroll-mt-28 font-serif text-2xl text-ink">
+          논란과 반응
+        </h2>
+        <p className="mt-2 text-sm leading-7 text-muted">
+          배역, 평점, 각색, 한 시즌에서 끝난 일을 출처와 함께 적습니다. 어느 쪽의 편도 들지 않습니다. 확인하지 못한 말은 전해지는 이야기로 표시합니다. 배우의 사진은 없습니다.
+        </p>
+        <ul className="mt-4 space-y-3">
+          {troyReception.map((item) => (
+            <li key={item.id} id={item.id} className="scroll-mt-28 rounded-lg border border-line bg-card p-4">
+              <div className="flex flex-wrap items-center gap-2">
+                <h3 className="font-serif text-lg text-ink">{item.title}</h3>
+                {item.tradition ? (
+                  <span className="inline-block rounded-sm border border-wine/40 bg-wine/10 px-1.5 py-0.5 text-[10px] font-medium tracking-wide text-wine">
+                    전해지는 이야기
+                  </span>
+                ) : null}
+              </div>
+              <p className="mt-2 text-sm leading-7">
+                <Rich text={item.body} />
+              </p>
+              {item.links.length ? (
+                <p className="mt-2 flex flex-wrap gap-x-3 gap-y-1 text-sm">
+                  {item.links.map((link) =>
+                    link.href.startsWith("/") || link.href.startsWith("#") ? (
                       <Link key={link.href + link.label} href={link.href} className="text-olive underline decoration-line underline-offset-4 hover:text-aegean">
                         {link.label}
                       </Link>

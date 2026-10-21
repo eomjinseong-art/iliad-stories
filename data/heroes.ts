@@ -57,6 +57,7 @@ export const heroes: readonly Hero[] = [
       { work: "헥토르의 예언", ref: "22.358–360" },
     ],
     related: [
+      { href: "/movies/troy-missing", label: "영화 트로이에서 빠진 이야기" },
       { href: "/timeline", label: "51일" },
       { href: "/books/1", label: "1권" },
       { href: "/books/22", label: "22권" },
@@ -89,6 +90,7 @@ export const heroes: readonly Hero[] = [
       { work: "호메로스 『오디세이아』", ref: "귀향 뒤의 죽음은 4권, 11권" },
     ],
     related: [
+      { href: "/movies/troy-missing", label: "영화 트로이에서 빠진 이야기" },
       { href: "/books/1", label: "1권의 다툼" },
       { href: "/heroes/achilles", label: "아킬레우스" },
       { href: OUT.mythAgamemnon, label: "나두신화 · 아가멤논" },
@@ -120,6 +122,7 @@ export const heroes: readonly Hero[] = [
       { work: "호메로스 『오디세이아』", ref: "4권, 귀향 뒤의 스파르테" },
     ],
     related: [
+      { href: "/movies/troy-missing", label: "영화 트로이에서 빠진 이야기" },
       { href: "/books/3", label: "3권의 결투" },
       { href: "/heroes/helen", label: "헬레네" },
       { href: "/heroes/paris", label: "파리스" },
@@ -147,6 +150,7 @@ export const heroes: readonly Hero[] = [
     ],
     sources: [{ work: ILIAD, ref: "1–2권, 9–10권, 19권" }],
     related: [
+      { href: "/movies/troy-missing", label: "영화 트로이에서 빠진 이야기" },
       { href: "/books/9", label: "9권 사절" },
       { href: OUT.mythOdyssey, label: "나두신화 · 오디세이아" },
       { href: "/movies#odyssey-2026", label: "영화 『오디세이』" },
@@ -174,6 +178,7 @@ export const heroes: readonly Hero[] = [
     careful: "이름만 보면 한 사람으로 섞이기 쉽습니다. 헥토르와 맞선 이는 큰 아이아스입니다.",
     sources: [{ work: ILIAD, ref: "2권, 7권, 9권, 14–15권, 23권" }],
     related: [
+      { href: "/movies/troy-missing", label: "영화 트로이에서 빠진 이야기" },
       { href: "/books/7", label: "7권" },
       { href: "/heroes/hector", label: "헥토르" },
       { href: "/scope", label: "시에 없는 죽음들" },
@@ -249,6 +254,7 @@ export const heroes: readonly Hero[] = [
     ],
     sources: [{ work: ILIAD, ref: "11권, 16권, 19권, 23권" }],
     related: [
+      { href: "/movies/troy-missing", label: "영화 트로이에서 빠진 이야기" },
       { href: "/books/16", label: "16권" },
       { href: "/heroes/achilles", label: "아킬레우스" },
       { href: "/heroes/hector", label: "헥토르" },
@@ -276,6 +282,7 @@ export const heroes: readonly Hero[] = [
     ],
     sources: [{ work: ILIAD, ref: "6권, 8권, 12–17권, 22권, 24권" }],
     related: [
+      { href: "/movies/troy-missing", label: "영화 트로이에서 빠진 이야기" },
       { href: "/books/6", label: "6권 작별" },
       { href: "/books/22", label: "22권" },
       { href: "/scenes#farewell", label: "명장면" },
@@ -305,6 +312,7 @@ export const heroes: readonly Hero[] = [
     ],
     sources: [{ work: ILIAD, ref: "3권, 22권, 24권" }],
     related: [
+      { href: "/movies/troy-missing", label: "영화 트로이에서 빠진 이야기" },
       { href: "/scenes#priam", label: "명장면" },
       { href: "/books/24", label: "24권" },
       { href: "/heroes/achilles", label: "아킬레우스" },
@@ -336,6 +344,7 @@ export const heroes: readonly Hero[] = [
       { work: "서사시권 『키프리아』", ref: "심판과 헬레네를 데려온 일은 요약으로 남음" },
     ],
     related: [
+      { href: "/movies/troy-missing", label: "영화 트로이에서 빠진 이야기" },
       { href: "/scope#judgment", label: "심판은 어디에" },
       { href: OUT.mythParis, label: "나두신화 · 파리스" },
       { href: OUT.mythJudgment, label: "나두신화 · 심판" },
@@ -363,6 +372,7 @@ export const heroes: readonly Hero[] = [
     ],
     sources: [{ work: ILIAD, ref: "6.394–502, 22.437–515, 24.723–745" }],
     related: [
+      { href: "/movies/troy-missing", label: "영화 트로이에서 빠진 이야기" },
       { href: "/scenes#farewell", label: "작별 장면" },
       { href: "/heroes/hector", label: "헥토르" },
       { href: "/heroes/astyanax", label: "아스튀아낙스" },
@@ -418,6 +428,7 @@ export const heroes: readonly Hero[] = [
       { work: "베르길리우스 『아이네이스』", ref: "로마 쪽 항해는 이 시 밖" },
     ],
     related: [
+      { href: "/movies/troy-missing", label: "영화 트로이에서 빠진 이야기" },
       { href: "/books/20", label: "20권" },
       { href: OUT.mythAineias, label: "나두신화 · 아이네이아스" },
       { href: OUT.mythAeneid, label: "나두신화 · 아이네이스" },
@@ -447,6 +458,7 @@ export const heroes: readonly Hero[] = [
     ],
     sources: [{ work: ILIAD, ref: "3권, 6.343–368, 24.762–775" }],
     related: [
+      { href: "/movies/troy-missing", label: "영화 트로이에서 빠진 이야기" },
       { href: "/books/3", label: "3권" },
       { href: "/scope#abduction", label: "데려온 일은 어디에" },
       { href: OUT.mythHelene, label: "나두신화 · 헬레네" },
@@ -640,6 +652,7 @@ export const heroes: readonly Hero[] = [
     ],
     sources: [{ work: ILIAD, ref: "1권, 18권, 24권" }],
     related: [
+      { href: "/movies/troy-missing", label: "영화 트로이에서 빠진 이야기" },
       { href: OUT.mythThetis, label: "나두신화 · 테티스" },
       { href: OUT.mythFamily, label: "나두신화 가족관계도" },
       { href: "/heroes/achilles", label: "아킬레우스" },
@@ -736,6 +749,7 @@ export const heroes: readonly Hero[] = [
     more: ["가계도에는 프리아모스와 헤카베의 딸로만 두었습니다. 예언의 신을 부모처럼 잇지 않았습니다."],
     sources: [{ work: ILIAD, ref: "13.361–382" }],
     related: [
+      { href: "/movies/troy-missing", label: "영화 트로이에서 빠진 이야기" },
       { href: "/heroes/priam", label: "프리아모스" },
       { href: "/scope", label: "시에 없는 장면" },
       { href: "/family-tree?tree=priam&focus=cassandra", label: "가족관계도" },

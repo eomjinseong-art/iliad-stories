@@ -361,7 +361,92 @@ export const troyDifferences: readonly TroyDifference[] = [
   },
 ];
 
+export const troyReception: readonly TroyDifference[] = [
+  {
+    id: "casting",
+    title: "배역을 둘러싼 논쟁",
+    body: "아킬레우스(데이비드 기아시), 제우스(하킴 카에카짐), 파트로클로스(레모강 치파), 아이네이아스(앨프리드 에노크)를 흑인 배우가 맡았습니다. 방송 전후로 이 선택이 논쟁의 중심이 되었습니다. 이 글은 어느 쪽의 결론도 고르지 않습니다.",
+    links: [
+      { href: "https://variety.com/2018/tv/news/troy-fall-of-a-city-casting-diversity-bbc-netflix-1202707708/", label: "버라이어티 · 제작진의 말" },
+      { href: "https://www.radiotimes.com/tv/drama/troy-fall-of-a-city-blackwashing-casting-black-actors-greek-myth/", label: "라디오타임스 · 양쪽의 말" },
+      { href: "https://pharos.vassarspaces.net/2018/05/11/scholars-respond-to-racist-backlash-against-black-achilles-part-1-ancient-greek-attitudes-toward-africans/", label: "파로스 · 반응 기록" },
+    ],
+  },
+  {
+    id: "casting-text",
+    title: "시 구절을 든 쪽",
+    body: "반대하는 쪽은 시의 묘사와 맞지 않는다고 했습니다. [1.197](/books/1)과 [23.141](/books/23)은 아킬레우스의 머리카락을 크산토스(ξανθός)라고 하고, 이 단어는 흔히 금빛이나 밝은색으로 옮겨집니다. 소셜 미디어에는 그래서 흑인 배우가 맡을 수 없다는 글이 올라왔습니다. 그리스계 매체 그리스 리포터는 이 선택을 문화적 수정과 정치적 올바름이라고 비판했습니다. 파로스는 그 반응 가운데 욕설과 인종 비방, 인종차별 사이트의 글이 섞여 있었다고 기록합니다. 라디오타임스가 인용한 글에는 유럽의 문화를 지운다는 음모론도 있었습니다.",
+    links: [
+      { href: "/books/1", label: "1.197이 있는 1권" },
+      { href: "/books/23", label: "23.141이 있는 23권" },
+      { href: "https://greekreporter.com/2018/03/15/bbcs-controversial-troy-fall-of-a-city-ratings-continue-to-tank/", label: "그리스 리포터 · 비판" },
+      { href: "https://pharos.vassarspaces.net/2018/05/18/scholars-respond-to-racist-backlash-against-black-achilles-part-2-what-did-achilles-look-like/", label: "파로스 · 크산토스" },
+    ],
+  },
+  {
+    id: "casting-reply",
+    title: "신화의 자유라고 한 쪽",
+    body: "기획 데이비드 파는 버라이어티에서, 신화라 배역의 폭이 넓고 아킬레우스를 에티오피아 사람이라고 주장하는 것이 아니라 그 역에 맞는 사람을 고른 것이라고 말했습니다. 제작 데릭 왁스는 다양성이 BBC와 넷플릭스 배역의 중심이고, 논쟁을 만들려는 쪽에서 논쟁이 된다고 말했습니다. 케임브리지의 팀 휘트마쉬는 라디오타임스 인터뷰에서, 오늘의 흑백 구분이 고대 그리스의 구분이 아니고, 크산토스가 금발이라는 한 뜻으로만 읽히지 않으며, 제우스는 모습을 바꾸는 신이라고 설명했습니다. 파로스는 말의 대부분이 아킬레우스에게 몰렸고, 제우스·아테나·아이네이아스·파트로클로스·네스토르는 덜 다뤄졌다고 적습니다. 팝매터스는 아이네이아스 배역이 덜 말해졌지만 무게가 있다고 보았습니다.",
+    links: [
+      { href: "/heroes/achilles", label: "아킬레우스" },
+      { href: "/heroes/zeus", label: "제우스" },
+      { href: "/heroes/patroclus", label: "파트로클로스" },
+      { href: "/heroes/aeneas", label: "아이네이아스" },
+      { href: "https://www.popmatters.com/troy-fall-of-a-city-2579452784.html", label: "팝매터스 · 아이네이아스" },
+    ],
+  },
+  {
+    id: "ratings",
+    title: "평점과 시청률",
+    body: "평점은 모이는 대로 바뀝니다. 아래는 2026년 10월에 연 페이지의 숫자입니다. 로튼토마토 시즌 1 비평가 지수는 리뷰 24편으로 67%이고, 관객 지수는 500건이 넘는 표시로 22%입니다. 비평가 요약은, 청동기의 수레바퀴를 새로 만들지는 않지만 왕가와 신의 음모는 볼 만하다는 쪽에 가깝습니다. IMDb 시리즈 점수는 10점 만점에 4.1이고, 표시된 표는 약 16,000입니다. 같은 사이트의 회차 점수는 이보다 높게 나와 있어, 두 숫자는 다른 집계입니다. 버라이어티는 2018년 2월 17일 1화의 BBC One 시청자를 320만, 점유율을 18.2%로 전했습니다. 선데이 텔레그래프는 2018년 6월, 시리즈 평균 시청자를 230만, 제작비를 1,600만 파운드로 적었습니다.",
+    links: [
+      { href: "https://www.rottentomatoes.com/tv/troy_fall_of_a_city/s01", label: "로튼토마토 · 시즌 1" },
+      { href: "https://www.imdb.com/title/tt5103758/ratings/", label: "IMDb · 평점" },
+      { href: "https://variety.com/2018/tv/news/troy-fall-of-a-city-casting-diversity-bbc-netflix-1202707708/", label: "버라이어티 · 1화 320만" },
+      { href: "https://www.telegraph.co.uk/news/2018/06/30/bbc1-audience-figures-lowest-16-years-saturday-night-drama-experiment/", label: "텔레그래프 · 평균 230만" },
+    ],
+  },
+  {
+    id: "ratings-four",
+    title: "4화 160만이라는 보도",
+    tradition: true,
+    body: "더 선과 그리스 리포터는 4화 시청자를 160만으로 전했습니다. 이 글은 BARB 원표를 대조하지 못했습니다. 160만이 공식 확정 숫자인지는 전해지는 이야기입니다.",
+    links: [
+      { href: "https://www.thesun.co.uk/tvandshowbiz/5782956/troy-fall-of-a-city-flops-as-just-1-6m-tune-in-to-bbcs-16million-bonkbuster/", label: "더 선 · 4화 보도" },
+      { href: "https://greekreporter.com/2018/03/15/bbcs-controversial-troy-fall-of-a-city-ratings-continue-to-tank/", label: "그리스 리포터 · 같은 숫자" },
+    ],
+  },
+  {
+    id: "criticism",
+    title: "각색과 성애 장면에 대한 말",
+    body: "신화를 바꾼 자리에 대한 평도 갈렸습니다. 로튼토마토에 실린 뉴 스테이츠먼의 짧은 인용은, 이야기를 지루할 만큼 21세기처럼 만들었다고 합니다. 인디와이어의 짧은 평은 볼 만하기보다 무난하다는 쪽이고 B-입니다. 같은 페이지에서 데일리 메일은 5점 만점에 4점을 주고, 어른을 위한 공들인 재이야기라고 보았습니다. 아트 데스크는 인물이 밋밋하고 대사가 평범하다고 했습니다. 성애 장면은 따로 말이 나왔습니다. 더 선은 시청률 기사에서 이 작품을 성애 중심의 드라마로 불렀습니다. 로튼토마토의 관객 글에는 해변의 정사를 거부하는 의견이 있습니다. 그 글은 집계된 평점이 아니라 개인 의견입니다. 학술지 『헤로도투』의 한 논문은 아킬레우스, 파트로클로스, 브리세이스가 함께하는 장면을 두고, 공개된 반응은 그 장면보다 배역의 피부색에 더 몰렸다고 적습니다. 시와 다른 자리는 [위 칸](#differences)에 모아 두었습니다.",
+    links: [
+      { href: "#differences", label: "신화와 다른 점" },
+      { href: "https://www.rottentomatoes.com/tv/troy_fall_of_a_city/s01", label: "로튼토마토 · 평론 인용" },
+      { href: "https://periodicos.unifesp.br/index.php/herodoto/article/view/13791", label: "헤로도투 · 논문" },
+    ],
+  },
+  {
+    id: "one-season",
+    title: "한 시즌에서 끝남",
+    body: "2018년 2월 17일부터 4월 7일까지 여덟 회가 방송된 것이 전부입니다. 방송 중인 2월, 데릭 왁스는 버라이어티에서 두 번째 시즌의 생각이 있고 호메로스는 『오디세이아』도 썼다고 말했습니다. 2026년 10월에 본 로튼토마토는 시즌을 하나로 적습니다. 두 번째 시즌은 나오지 않았습니다.",
+    links: [
+      { href: "https://variety.com/2018/tv/news/troy-fall-of-a-city-casting-diversity-bbc-netflix-1202707708/", label: "버라이어티 · 다음 시즌 구상" },
+      { href: "https://www.rottentomatoes.com/tv/troy_fall_of_a_city", label: "로튼토마토 · 시즌 1" },
+      { href: "/scope#odyssey", label: "귀향은 다른 시" },
+    ],
+  },
+  {
+    id: "cancellation-notice",
+    title: "취소라는 발표는 확인하지 못함",
+    tradition: true,
+    body: "한 시즌으로 끝났다는 사실과, 방송사가 ‘취소한다’고 발표했다는 말은 다릅니다. BBC나 넷플릭스가 날짜를 정해 취소했다고 적은 발표문은 이 글이 찾지 못했습니다. 그 발표가 있었다는 말은 전해지는 이야기입니다.",
+    links: [],
+  },
+];
+
 export const troySeeAlso: readonly LinkItem[] = [
+  { href: "/movies/troy-missing", label: "영화 트로이에서 빠진 이야기" },
   { href: "/movies#troy-fall-of-a-city-2018", label: "영화 목록의 짧은 카드" },
   { href: "/movies#troy-2004", label: "2004년 영화 『트로이』" },
   { href: "/generals", label: "시의 장수" },

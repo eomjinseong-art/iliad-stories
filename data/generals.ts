@@ -21,6 +21,7 @@ export const GENERALS_SEE_ALSO: readonly GLink[] = [
 
 const troy = { href: "/movies#troy-2004", label: "영화 「트로이」(2004)" };
 const fall = { href: "/movies/troy-fall-of-a-city", label: "시리즈 「트로이: 왕국의 몰락」(2018)" };
+const missing = { href: "/movies/troy-missing", label: "영화 트로이에서 빠진 이야기" };
 
 export const generals: readonly General[] = [
   {
@@ -39,7 +40,7 @@ export const generals: readonly General[] = [
       { href: "/books/22", label: "22권 · 헥토르와의 결투" },
       { href: "/scenes#priam", label: "명장면 · 프리아모스의 밤" },
     ],
-    films: [troy, fall],
+    films: [troy, fall, missing],
     rivals: ["헥토르", "아가멤논(같은 편과의 다툼)"],
     allies: ["파트로클로스", "테티스(어머니, 여신)", "미르미돈 병사들"],
     tales: ["발뒤꿈치만 약했다는 이야기와 파리스의 화살에 죽는 장면은 『일리아스』 밖의 후대 전승입니다"],
@@ -58,7 +59,7 @@ export const generals: readonly General[] = [
     ko: "미케네의 왕이자 그리스 연합군 총사령관입니다. 전리품 여인을 두고 아킬레우스와 다투면서 그리스군이 큰 위기에 빠집니다.",
     en: "King of Mycenae and commander-in-chief of the Greek host.",
     battles: [{ href: "/books/1", label: "1권 · 다툼의 시작" }, { href: "/books/11", label: "11권 · 아가멤논의 활약" }],
-    films: [troy, fall],
+    films: [troy, fall, missing],
     rivals: ["아킬레우스", "프리아모스"],
     allies: ["메넬라오스(동생)", "네스토르", "오디세우스"],
     tales: ["트로이에서 돌아와 아내 클리타임네스트라에게 죽는 이야기는 시 밖의 전승입니다", "미케네에서 발굴된 ‘아가멤논의 가면’은 시대가 수백 년 앞섭니다"],
@@ -96,7 +97,7 @@ export const generals: readonly General[] = [
     ko: "큰 방패를 든 거구의 장수로, 그리스 진영의 ‘벽’ 같은 사람입니다. 7권에서 헥토르와 하루 종일 결투하고, 배들이 불탈 위기에서 홀로 버팁니다.",
     en: "The giant shield-bearer who duels Hector and defends the ships.",
     battles: [{ href: "/books/7", label: "7권 · 헥토르와의 결투" }, { href: "/books/15", label: "15권 · 배를 지킴" }],
-    films: [troy],
+    films: [troy, missing],
     rivals: ["헥토르"],
     allies: ["테우크로스(이복동생, 궁수)", "작은 아이아스"],
     tales: ["아킬레우스의 갑옷을 오디세우스에게 빼앗기고 목숨을 끊는 이야기는 시 밖의 전승(소포클레스 『아이아스』)입니다"],
@@ -115,7 +116,7 @@ export const generals: readonly General[] = [
     ko: "이타카의 왕이며 꾀가 많은 장수입니다. 『일리아스』에서는 사절, 정찰, 연설로 활약합니다. 목마 작전과 10년 귀향은 『오디세이아』와 후대 이야기의 몫입니다.",
     en: "The cunning king of Ithaca: envoy, scout and speaker in the Iliad.",
     battles: [{ href: "/books/9", label: "9권 · 아킬레우스에게 간 사절" }, { href: "/books/10", label: "10권 · 밤의 정찰" }],
-    films: [troy, { href: "/movies#odyssey-2026", label: "영화 「오디세이」(2026)" }],
+    films: [troy, missing, { href: "/movies#odyssey-2026", label: "영화 「오디세이」(2026)" }],
     rivals: ["헥토르", "돌론(트로이 정찰병)"],
     allies: ["디오메데스", "아테나(여신)"],
     tales: ["트로이 목마는 『일리아스』에 나오지 않습니다"],
@@ -134,7 +135,7 @@ export const generals: readonly General[] = [
     ko: "아킬레우스의 가장 가까운 친구입니다. 아킬레우스의 갑옷을 빌려 입고 나가 트로이군을 몰아내지만, 헥토르의 손에 죽습니다. 그의 죽음이 아킬레우스를 다시 싸움터로 불러냅니다.",
     en: "Achilles' companion, killed by Hector while wearing Achilles' armour.",
     battles: [{ href: "/books/16", label: "16권 · 파트로클로스의 출전과 죽음" }, { href: "/books/23", label: "23권 · 장례 경기" }],
-    films: [troy, fall],
+    films: [troy, fall, missing],
     rivals: ["헥토르", "사르페돈"],
     allies: ["아킬레우스"],
     tales: ["영화 「트로이」의 ‘사촌’ 설정은 영화의 창작입니다"],
@@ -177,7 +178,7 @@ export const generals: readonly General[] = [
       { href: "/books/12", label: "12권 · 방벽 돌파" },
       { href: "/books/22", label: "22권 · 아킬레우스와의 결투" },
     ],
-    films: [troy, fall],
+    films: [troy, fall, missing],
     rivals: ["아킬레우스", "아이아스", "파트로클로스"],
     allies: ["프리아모스(아버지)", "안드로마케(아내)", "아이네이아스", "폴리다마스"],
     tales: [],
@@ -196,7 +197,7 @@ export const generals: readonly General[] = [
     ko: "트로이 쪽의 장수로 여신 아프로디테의 아들입니다. 『일리아스』에서는 죽을 뻔할 때마다 신들이 구해 줍니다. 로마는 그가 이탈리아로 건너가 로마인의 조상이 되었다고 믿었습니다.",
     en: "Trojan prince saved by the gods, later claimed as Rome's ancestor.",
     battles: [{ href: "/books/5", label: "5권 · 디오메데스에게 쓰러짐" }, { href: "/books/20", label: "20권 · 아킬레우스와 맞섬" }],
-    films: [fall],
+    films: [fall, missing],
     rivals: ["디오메데스", "아킬레우스"],
     allies: ["헥토르", "아프로디테·포세이돈(구해 준 신들)"],
     tales: ["로마 건국 이야기는 베르길리우스 『아이네이스』의 전승입니다"],

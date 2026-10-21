@@ -1,3 +1,4 @@
+import { troyMissingLink } from "@/data/troy-compare";
 import { OUT } from "@/lib/site";
 import type { Movie } from "@/data/types";
 
@@ -14,6 +15,7 @@ export const movies: readonly Movie[] = [
     note: "영화에서 헥토르가 메넬라오스를 죽이고, 함락의 밤에 브리세이스가 아가멤논을 죽입니다. 『일리아스』가 끝날 때 두 사람은 살아 있습니다. 메넬라오스는 『오디세이아』 4권에서 헬레네와 스파르테에 있고, 아가멤논의 집에서의 죽음은 『오디세이아』 11권과 후대 비극의 이야기입니다. 파트로클로스를 사촌으로 그린 것도 시의 가계와 다릅니다. 시는 그를 메노이티오스의 아들, 펠레우스의 집에 맡겨진 벗으로 적습니다. 아킬레우스가 목마의 날까지 살아 있는 순서도, 그가 함락 전에 죽는 『아이티오피스』의 전승과 다릅니다.",
     watch: "워너 브라더스가 2004년 극장에 걸었습니다. 지금 어느 서비스에 있는지는 지역마다 달라 주소를 적지 않습니다.",
     links: [
+      troyMissingLink,
       { href: "/scope#heel", label: "발뒤꿈치는 시 밖에" },
       { href: "/heroes/achilles", label: "아킬레우스" },
       { href: "/heroes/hector", label: "헥토르" },
@@ -68,6 +70,7 @@ export const movies: readonly Movie[] = [
     watch: "처음 공개된 곳은 BBC One과 넷플릭스입니다. 오늘 어느 목록에 남아 있는지는 지역마다 달라 링크를 두지 않습니다.",
     links: [
       { href: "/movies/troy-fall-of-a-city", label: "8화 줄거리와 시와의 차이" },
+      troyMissingLink,
       { href: "/scope#horse", label: "함락은 시 밖에" },
       { href: "/heroes/paris", label: "파리스" },
       { href: "/heroes/helen", label: "헬레네" },

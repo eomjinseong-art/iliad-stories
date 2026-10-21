@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { JsonLd } from "@/components/JsonLd";
 import { MovieCard } from "@/components/MovieList";
@@ -39,6 +40,13 @@ export default function MoviesPage() {
         title="영화·드라마"
         lead="화면으로 트로이를 먼저 만난 사람이 많습니다. 제목과 해, 감독은 확인된 작품만 적었습니다. 각 카드는 일리아스와 얼마나 겹치는지, 어디서 이야기가 시 밖으로 나가는지를 나눕니다."
       />
+      <p className="mt-4 text-sm leading-7">
+        2004년 영화, 2018년 시리즈, 시의 전통을 같은 장면마다 세 칸으로 나눈 표는{" "}
+        <Link href="/movies/troy-missing" className="text-olive underline decoration-line underline-offset-4 hover:text-aegean">
+          영화 트로이에서 빠진 이야기
+        </Link>
+        입니다.
+      </p>
       <ul className="mt-8 space-y-3">
         {movies.map((movie) => (
           <MovieCard key={movie.slug} movie={movie} />
