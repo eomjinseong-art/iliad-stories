@@ -73,6 +73,7 @@ export const OUT = {
   greeceHomer: `${GREECE_URL}/people/homer`,
   greeceMycenaean: `${GREECE_URL}/origins#mycenaean`,
   greeceTroyFilm: `${GREECE_URL}/movies#troy`,
+  greeceTroySeries: `${GREECE_URL}/movies#troy-fall`,
   greeceOdysseyFilm: `${GREECE_URL}/movies#odyssey-2026`,
   greeceTree: `${GREECE_URL}/family-tree?tree=trojan`,
   greeceAchilles: `${GREECE_URL}/family-tree?tree=trojan&focus=achilles`,
@@ -288,7 +289,7 @@ export const HOME_SECTIONS = [
     href: "/movies",
     en: "Films",
     title: "영화·드라마",
-    desc: "트로이(2004)를 비롯한 화면 각색. 일리아스에 없는 죽음을 영화가 넣었는지도 적습니다.",
+    desc: "트로이(2004)와 2018년 8부작 『트로이: 왕국의 몰락』. 일리아스에 없는 죽음을 화면이 넣었는지도 적습니다.",
   },
   {
     href: "/homer",

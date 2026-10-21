@@ -20,7 +20,7 @@ export const GENERALS_SEE_ALSO: readonly GLink[] = [
 ];
 
 const troy = { href: "/movies#troy-2004", label: "영화 「트로이」(2004)" };
-const fall = { href: "/movies#troy-fall-of-a-city-2018", label: "시리즈 「트로이: 도시의 함락」(2018)" };
+const fall = { href: "/movies/troy-fall-of-a-city", label: "시리즈 「트로이: 왕국의 몰락」(2018)" };
 
 export const generals: readonly General[] = [
   {

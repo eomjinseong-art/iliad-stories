@@ -64,7 +64,7 @@ export const heroes: readonly Hero[] = [
       { href: OUT.greeceAchilles, label: "그리스이야기 가계" },
       { href: "/family-tree?tree=peleus&focus=achilles", label: "가족관계도" },
     ],
-    movieSlugs: ["troy-2004", "helen-of-troy-2003"],
+    movieSlugs: ["troy-fall-of-a-city-2018", "troy-2004", "helen-of-troy-2003"],
   },
   {
     slug: "agamemnon",
@@ -96,7 +96,7 @@ export const heroes: readonly Hero[] = [
       { href: OUT.greeceMycenaean, label: "미케네 궁전" },
       { href: "/family-tree?tree=atreus&focus=agamemnon", label: "가족관계도" },
     ],
-    movieSlugs: ["troy-2004"],
+    movieSlugs: ["troy-fall-of-a-city-2018", "troy-2004"],
   },
   {
     slug: "menelaus",
@@ -125,7 +125,7 @@ export const heroes: readonly Hero[] = [
       { href: "/heroes/paris", label: "파리스" },
       { href: "/family-tree?tree=atreus&focus=menelaus", label: "가족관계도" },
     ],
-    movieSlugs: ["troy-2004", "helen-of-troy-1956"],
+    movieSlugs: ["troy-fall-of-a-city-2018", "troy-2004", "helen-of-troy-1956"],
   },
   {
     slug: "odysseus",
@@ -152,7 +152,7 @@ export const heroes: readonly Hero[] = [
       { href: "/movies#odyssey-2026", label: "영화 『오디세이』" },
       { href: OUT.greeceOdysseyFilm, label: "그리스이야기의 같은 영화" },
     ],
-    movieSlugs: ["odyssey-2026", "troy-2004"],
+    movieSlugs: ["troy-fall-of-a-city-2018", "odyssey-2026", "troy-2004"],
   },
   {
     slug: "ajax",
@@ -254,7 +254,7 @@ export const heroes: readonly Hero[] = [
       { href: "/heroes/hector", label: "헥토르" },
       { href: "/timeline#patroclus", label: "26일" },
     ],
-    movieSlugs: ["troy-2004"],
+    movieSlugs: ["troy-fall-of-a-city-2018", "troy-2004"],
   },
   {
     slug: "hector",
@@ -283,7 +283,7 @@ export const heroes: readonly Hero[] = [
       { href: OUT.greeceHector, label: "그리스이야기 가계" },
       { href: "/family-tree?tree=priam&focus=hector", label: "가족관계도" },
     ],
-    movieSlugs: ["troy-2004"],
+    movieSlugs: ["troy-fall-of-a-city-2018", "troy-2004"],
   },
   {
     slug: "priam",
@@ -310,7 +310,7 @@ export const heroes: readonly Hero[] = [
       { href: "/heroes/achilles", label: "아킬레우스" },
       { href: "/family-tree?tree=priam&focus=priam", label: "가족관계도" },
     ],
-    movieSlugs: ["troy-2004", "helen-of-troy-1956"],
+    movieSlugs: ["troy-fall-of-a-city-2018", "troy-2004", "helen-of-troy-1956"],
   },
   {
     slug: "paris",
@@ -368,7 +368,7 @@ export const heroes: readonly Hero[] = [
       { href: "/heroes/astyanax", label: "아스튀아낙스" },
       { href: "/movies#trojan-women-1971", label: "트로이의 여인들" },
     ],
-    movieSlugs: ["trojan-women-1971"],
+    movieSlugs: ["troy-fall-of-a-city-2018", "trojan-women-1971"],
   },
   {
     slug: "hecuba",
@@ -393,7 +393,7 @@ export const heroes: readonly Hero[] = [
       { href: "/heroes/priam", label: "프리아모스" },
       { href: "/family-tree?tree=priam&focus=hecuba", label: "가족관계도" },
     ],
-    movieSlugs: ["trojan-women-1971"],
+    movieSlugs: ["troy-fall-of-a-city-2018", "trojan-women-1971"],
   },
   {
     slug: "aeneas",
@@ -425,7 +425,7 @@ export const heroes: readonly Hero[] = [
       { href: OUT.romeRomulus, label: "로물루스" },
       { href: "/family-tree?tree=aeneas&focus=aeneas", label: "이 사이트의 가계" },
     ],
-    movieSlugs: [],
+    movieSlugs: ["troy-fall-of-a-city-2018"],
   },
   {
     slug: "helen",
@@ -476,7 +476,7 @@ export const heroes: readonly Hero[] = [
       { href: OUT.mythFamily, label: "나두신화 가족관계도" },
       { href: "/heroes/zeus", label: "제우스" },
     ],
-    movieSlugs: [],
+    movieSlugs: ["troy-fall-of-a-city-2018"],
   },
   {
     slug: "athena",
@@ -499,7 +499,7 @@ export const heroes: readonly Hero[] = [
       { href: OUT.mythFamily, label: "나두신화 가족관계도" },
       { href: "/books/22", label: "22권의 속임" },
     ],
-    movieSlugs: [],
+    movieSlugs: ["troy-fall-of-a-city-2018"],
   },
   {
     slug: "poseidon",
@@ -570,7 +570,7 @@ export const heroes: readonly Hero[] = [
       { href: OUT.mythFamily, label: "나두신화 가족관계도" },
       { href: "/family-tree?tree=aeneas&focus=aphrodite", label: "아이네이아스의 어머니" },
     ],
-    movieSlugs: [],
+    movieSlugs: ["troy-fall-of-a-city-2018"],
   },
   {
     slug: "ares",
@@ -618,7 +618,7 @@ export const heroes: readonly Hero[] = [
       { href: OUT.mythFamily, label: "신들의 가족관계도" },
       { href: "/why", label: "왜 51일만?" },
     ],
-    movieSlugs: [],
+    movieSlugs: ["troy-fall-of-a-city-2018"],
   },
   {
     slug: "thetis",
@@ -740,7 +740,7 @@ export const heroes: readonly Hero[] = [
       { href: "/scope", label: "시에 없는 장면" },
       { href: "/family-tree?tree=priam&focus=cassandra", label: "가족관계도" },
     ],
-    movieSlugs: ["trojan-women-1971"],
+    movieSlugs: ["troy-fall-of-a-city-2018", "trojan-women-1971"],
   },
   {
     slug: "astyanax",
@@ -764,7 +764,7 @@ export const heroes: readonly Hero[] = [
       { href: "/heroes/andromache", label: "안드로마케" },
       { href: "/family-tree?tree=priam&focus=astyanax", label: "가족관계도" },
     ],
-    movieSlugs: ["trojan-women-1971"],
+    movieSlugs: ["troy-fall-of-a-city-2018", "trojan-women-1971"],
   },
   {
     slug: "anchises",

@@ -16,7 +16,7 @@
 - **명장면** `/scenes` — 첫 줄, 6권, 18권, 24권. 한국어는 이 사이트의 풀이
 - **왜 51일** `/why`
 - **가족관계도** `/family-tree`
-- **영화** `/movies` — `#troy-2004`, `#helen-of-troy-1956`, `#helen-of-troy-2003`, `#troy-fall-of-a-city-2018`, `#trojan-women-1971`, `#odyssey-2026`
+- **영화** `/movies` — `#troy-2004`, `#helen-of-troy-1956`, `#helen-of-troy-2003`, `#troy-fall-of-a-city-2018`, `#trojan-women-1971`, `#odyssey-2026`. 2018년 8부작의 회차는 `/movies/troy-fall-of-a-city`
 - **호메로스** `/homer`
 - **출처** `/sources`
 
