@@ -1,3 +1,4 @@
+import { NadooAd } from "@/components/NadooAd";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { JsonLd } from "@/components/JsonLd";
 import { PageHead } from "@/components/PageHead";
@@ -54,6 +55,7 @@ export default function SourcesPage() {
           호메로스는 총일수를 말하지 않습니다. 연구자들은 시가 센 구간을 이어 약 51일로 많이 정리합니다. 요한 라타츠의 정리가 자주 인용되고, 포함해서 세느냐에 따라 50–54일로도 적힙니다. 이 사이트의 타임라인은 그 통상 재구성의 하나이고, 하루가 앞뒤로 움직일 수 있다고 적어 두었습니다.
         </p>
       </section>
+      <NadooAd inline />
       <section className="mt-4 rounded-lg border border-line bg-card p-5 text-sm leading-7">
         <h2 className="font-serif text-xl text-ink">영화</h2>
         <p className="mt-2 text-muted">

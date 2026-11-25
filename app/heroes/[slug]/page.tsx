@@ -1,3 +1,4 @@
+import { NadooAd } from "@/components/NadooAd";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
@@ -89,6 +90,7 @@ export default async function HeroPage({ params }: { params: Promise<{ slug: str
           </p>
         ))}
       </More>
+      <NadooAd inline />
       <RelatedLinks links={hero.related} />
       {hero.movieSlugs.length ? (
         <RelatedMovies slugs={hero.movieSlugs} />

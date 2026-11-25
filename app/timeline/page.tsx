@@ -1,3 +1,4 @@
+import { NadooAd } from "@/components/NadooAd";
 import Link from "next/link";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { JsonLd } from "@/components/JsonLd";
@@ -32,6 +33,7 @@ export default function TimelinePage() {
         title="51일 타임라인"
         lead="『일리아스』는 트로이 전쟁 10년째의 짧은 구간입니다. 아래 번호는 시가 직접 센 날(아흐레, 열흘째, 열두 번째 새벽)을 이어 맞춘 재구성입니다."
       />
+      <NadooAd inline />
       <aside className="mt-6 rounded-lg border border-line bg-card p-4 text-sm leading-7 text-muted">
         <p>{DAY_NOTE}</p>
         <p className="mt-2">

@@ -1,3 +1,4 @@
+import { NadooAd } from "@/components/NadooAd";
 import Link from "next/link";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { JsonLd } from "@/components/JsonLd";
@@ -31,6 +32,7 @@ export default function ScopePage() {
         title="일리아스에 나오는 것 vs 안 나오는 것"
         lead="유명한 장면이 다 이 시 안에 있는 것은 아닙니다. 표의 왼쪽이 장면, 가운데가 이 시에 있는지, 오른쪽이 그 이야기의 집입니다."
       />
+      <NadooAd inline />
       <div className="mt-8 overflow-x-auto rounded-lg border border-line">
         <table className="w-full min-w-[40rem] border-collapse text-left text-sm">
           <caption className="border-b border-line bg-stone/70 px-4 py-3 text-left font-serif text-base text-ink">

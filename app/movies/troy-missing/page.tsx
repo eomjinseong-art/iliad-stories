@@ -1,3 +1,4 @@
+import { NadooAd } from "@/components/NadooAd";
 import Link from "next/link";
 import { Fragment } from "react";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
@@ -114,6 +115,7 @@ export default function TroyMissingPage() {
         </ul>
       </section>
 
+      <NadooAd inline />
       <nav className="mt-8" aria-label="비교 항목">
         <p className="text-xs tracking-[0.16em] text-aegean">항목</p>
         <ul className="mt-2 flex flex-wrap gap-2">

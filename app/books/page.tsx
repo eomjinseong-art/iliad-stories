@@ -1,3 +1,4 @@
+import { NadooAd } from "@/components/NadooAd";
 import Link from "next/link";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { JsonLd } from "@/components/JsonLd";
@@ -35,6 +36,7 @@ export default function BooksPage() {
         title="24권 한눈에"
         lead="오늘날의 24권 나눔은 후대의 편집입니다. 시는 그 번호로 노래되지 않았습니다. 그래도 장면을 찾을 때 권 번호가 가장 짧습니다. 각 권은 세 줄로 열고, 제목을 누르면 그 권의 글이 있습니다."
       />
+      <NadooAd inline />
       <ol className="mt-8 space-y-4">
         {books.map((book) => (
           <li key={book.n} className="rounded-lg border border-line bg-card p-5">
