@@ -1,3 +1,4 @@
+import { NadooAd } from "@/components/NadooAd";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { GuideBlock } from "@/components/GuideBlock";
 import { JsonLd } from "@/components/JsonLd";
@@ -32,6 +33,7 @@ export default function HomerPage() {
         title="호메로스는 누구?"
         lead="짧은 답은 이것입니다. 『일리아스』와 『오디세이아』에 붙는 이름입니다. 그 사람이 언제 어디서 눈을 감고 살았는지는, 시보다 훨씬 나중의 이야기가 채웁니다."
       />
+      <NadooAd inline />
       <div className="mt-8 space-y-4">
         <GuideBlock
           en="The question"

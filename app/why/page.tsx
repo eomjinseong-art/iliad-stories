@@ -1,3 +1,4 @@
+import { NadooAd } from "@/components/NadooAd";
 import Link from "next/link";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { GuideBlock } from "@/components/GuideBlock";
@@ -31,6 +32,7 @@ export default function WhyPage() {
         title="왜 51일만?"
         lead="전쟁 10년을 다 노래하면 배가 출항하는 날부터 성이 무너지는 밤까지가 됩니다. 호메로스는 그 길을 고르지 않았습니다. 한 사람의 분노가 동료를 죽이고, 그 죽음이 또 다른 죽음을 부르는 구간만 골랐습니다."
       />
+      <NadooAd inline />
       <div className="mt-8 space-y-4">
         <GuideBlock
           en="Menis"

@@ -1,3 +1,4 @@
+import { NadooAd } from "@/components/NadooAd";
 import Link from "next/link";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { JsonLd } from "@/components/JsonLd";
@@ -31,6 +32,7 @@ export default function ScenesPage() {
         title="명장면·명문장"
         lead="아래 한국어는 고대 그리스어를 이 사이트가 짧게 풀어 쓴 것입니다. 출간된 번역의 문장을 옮기지 않았습니다. 그리스어 한 줄은 시의 자리를 가리키려고 둡니다."
       />
+      <NadooAd inline />
       <div className="mt-8 space-y-6">
         {scenes.map((scene) => (
           <article key={scene.id} id={scene.id} className="scroll-mt-28 rounded-lg border border-line bg-card p-5 sm:p-6">

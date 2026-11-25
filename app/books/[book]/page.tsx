@@ -1,3 +1,4 @@
+import { NadooAd } from "@/components/NadooAd";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
@@ -67,6 +68,7 @@ export default async function BookPage({ params }: { params: Promise<{ book: str
           </p>
         ))}
       </div>
+      <NadooAd inline />
       <More>
         {book.more.map((paragraph) => (
           <p key={paragraph}>

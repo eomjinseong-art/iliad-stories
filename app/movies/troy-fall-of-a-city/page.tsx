@@ -1,3 +1,4 @@
+import { NadooAd } from "@/components/NadooAd";
 import Link from "next/link";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { CoupangCard } from "@/components/CoupangCard";
@@ -185,6 +186,7 @@ export default function TroyFallPage() {
         </ol>
       </section>
 
+      <NadooAd inline />
       <section className="mt-12" aria-labelledby="differences">
         <h2 id="differences" className="scroll-mt-28 font-serif text-2xl text-ink">
           신화 · 『일리아스』와 다른 점

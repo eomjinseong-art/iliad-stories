@@ -1,3 +1,4 @@
+import { NadooAd } from "@/components/NadooAd";
 import Link from "next/link";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { FamilyTreeView } from "@/components/FamilyTreeView";
@@ -134,6 +135,7 @@ export default function FamilyTreePage() {
         ))}
       </section>
 
+      <NadooAd inline />
       <section className="mt-12">
         <h2 className="font-serif text-2xl text-ink">전승이 갈리는 자리</h2>
         <ul className="mt-4 space-y-4">
