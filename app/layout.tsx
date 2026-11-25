@@ -15,7 +15,7 @@ const serif = Noto_Serif_KR({ subsets: ["latin"], variable: "--font-noto-serif",
 const description = `${SITE_TAGLINE}. ${SITE_SUB}`;
 
 export const metadata: Metadata = {
-  verification: { google: "LglMaYLzS6dacAPQ5ZgZdPgzdtfLbp_1Rk5vh3WNPlM" },
+  verification: { google: "LglMaYLzS6dacAPQ5ZgZdPgzdtfLbp_1Rk5vh3WNPlM", other: { "naver-site-verification": "77b6a2086a358acaaca28e1cdf72237af884c38a" } },
   metadataBase: new URL(SITE_URL),
   title: { default: `${SITE_NAME} · 51일간의 분노`, template: `%s · ${SITE_NAME}` },
   description,
